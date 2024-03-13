@@ -3,6 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AteneaApp.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <!--Colors-->
+            <Color x:Key="SystemColor">#293b3f</Color>
+            
+            <!--Icons-->
+            <x:String x:Key="IconHome">&#xf015;</x:String>
+            <x:String x:Key="IconCar">&#xf1b9;</x:String>
+            <x:String x:Key="IconTools">&#xf7d9;</x:String>
+            <x:String x:Key="IconContact">&#xf27a;</x:String>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

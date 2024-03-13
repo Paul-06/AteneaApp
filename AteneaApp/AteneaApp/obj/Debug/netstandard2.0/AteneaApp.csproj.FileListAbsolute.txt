@@ -13,3 +13,5 @@ D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Xam
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\AteneaApp.dll
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\refint\AteneaApp.dll
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\AteneaApp.pdb
+D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\AteneaApp.sourcelink.json
+D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\HomeTabbedPage.xaml.g.cs

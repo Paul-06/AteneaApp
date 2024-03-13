@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Programming\\CSharp\\AteneaApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE427733-4AD0-4396-AEFB-420AA73F89C6}|AteneaApp\\AteneaApp.Android\\AteneaApp.Android.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp.android\\resources\\values\\styles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FE427733-4AD0-4396-AEFB-420AA73F89C6}|AteneaApp\\AteneaApp.Android\\AteneaApp.Android.csproj|solutionrelative:ateneaapp\\ateneaapp.android\\resources\\values\\styles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE427733-4AD0-4396-AEFB-420AA73F89C6}|AteneaApp\\AteneaApp.Android\\AteneaApp.Android.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp.android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FE427733-4AD0-4396-AEFB-420AA73F89C6}|AteneaApp\\AteneaApp.Android\\AteneaApp.Android.csproj|solutionrelative:ateneaapp\\ateneaapp.android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "styles.xml",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp.Android\\Resources\\values\\styles.xml",
+              "RelativeDocumentMoniker": "AteneaApp\\AteneaApp.Android\\Resources\\values\\styles.xml",
+              "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp.Android\\Resources\\values\\styles.xml",
+              "RelativeToolTip": "AteneaApp\\AteneaApp.Android\\Resources\\values\\styles.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-13T16:04:32.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "colors.xml",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp.Android\\Resources\\values\\colors.xml",
+              "RelativeDocumentMoniker": "AteneaApp\\AteneaApp.Android\\Resources\\values\\colors.xml",
+              "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp.Android\\Resources\\values\\colors.xml",
+              "RelativeToolTip": "AteneaApp\\AteneaApp.Android\\Resources\\values\\colors.xml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-03-13T16:04:25.573Z",
+              "EditorCaption": ""
             }
           ]
         }

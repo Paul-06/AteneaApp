@@ -10,7 +10,7 @@ namespace AteneaApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new HomeTabbedPage();
         }
 
         protected override void OnStart()

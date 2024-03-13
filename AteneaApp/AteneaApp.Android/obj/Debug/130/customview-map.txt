@@ -1,6 +1,5 @@
 @string/appbar_scrolling_view_behavior;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\54\jl\res\layout\rootlayout.xml
-adaptive-icon;obj\Debug\130\res\mipmap-anydpi-v26\icon.xml
-adaptive-icon;obj\Debug\130\res\mipmap-anydpi-v26\icon_round.xml
+adaptive-icon;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
 alpha;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\54\jl\res\anim\enterfromleft.xml
 alpha;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\54\jl\res\anim\exittoleft.xml
 androidx.appcompat.widget.Toolbar;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\54\jl\res\layout\fallbacktoolbardonotuse.xml
@@ -10,9 +9,10 @@ androidx.appcompat.widget.Toolbar;D:\Programming\CSharp\AteneaApp\AteneaApp\Aten
 androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\54\jl\res\layout\rootlayout.xml
 androidx.coordinatorlayout.widget.CoordinatorLayout;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\54\jl\res\layout\shellcontent.xml
 attr;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\54\jl\res\values\attrs.xml
-background;obj\Debug\130\res\mipmap-anydpi-v26\icon.xml
-background;obj\Debug\130\res\mipmap-anydpi-v26\icon_round.xml
+background;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
+bitmap;obj\Debug\130\res\drawable\splash_screen.xml
 cache-path;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\53\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+color;obj\Debug\130\res\drawable\splash_screen.xml
 color;obj\Debug\130\res\values\colors.xml
 com.google.android.material.appbar.AppBarLayout;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\54\jl\res\layout\flyoutcontent.xml
 com.google.android.material.appbar.AppBarLayout;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\54\jl\res\layout\rootlayout.xml
@@ -24,11 +24,14 @@ com.google.android.material.tabs.TabLayout;D:\Programming\CSharp\AteneaApp\Atene
 declare-styleable;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\54\jl\res\values\attrs.xml
 external-cache-path;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\53\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 external-path;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\53\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-foreground;obj\Debug\130\res\mipmap-anydpi-v26\icon.xml
-foreground;obj\Debug\130\res\mipmap-anydpi-v26\icon_round.xml
+foreground;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
 FrameLayout;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\54\jl\res\layout\bottomtablayout.xml
 item;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\54\jl\res\values\styles.xml
+item;obj\Debug\130\res\drawable\splash_screen.xml
+item;obj\Debug\130\res\values\styles.xml
+layer-list;obj\Debug\130\res\drawable\splash_screen.xml
 LinearLayout;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\54\jl\res\layout\bottomtablayout.xml
+monochrome;obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
 paths;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\53\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\54\jl\res\values\attrs.xml
 resources;D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\lp\54\jl\res\values\strings.xml
