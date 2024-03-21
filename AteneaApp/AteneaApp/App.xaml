@@ -7,11 +7,146 @@
             <!--Colors-->
             <Color x:Key="SystemColor">#293b3f</Color>
             
+            <!--Styles-->
+            <Style x:Key="Container" TargetType="StackLayout"
+                   Class="Container">
+                <Setter Property="Orientation"
+                        Value="Vertical"/>
+                <Setter Property="VerticalOptions"
+                        Value="Start"/>
+                <Setter Property="Padding"
+                        Value="20"/>
+            </Style>
+
+            <Style x:Key="Title" TargetType="Label"
+                   Class="Title">
+                <Setter Property="FontAttributes"
+                        Value="Bold"/>
+                <Setter Property="TextColor"
+                        Value="{StaticResource SystemColor}"/>
+                <Setter Property="FontFamily"
+                        Value="NS-B"/>
+                <Setter Property="FontSize"
+                        Value="Title"/>
+                <Setter Property="Padding"
+                        Value="0, 10"/>
+            </Style>
+
+            <Style x:Key="Subtitle" TargetType="Label"
+                    Class="Subtitle">
+                <Setter Property="FontAttributes"
+                        Value="Bold"/>
+                <Setter Property="TextColor"
+                        Value="{StaticResource SystemColor}"/>
+                <Setter Property="FontFamily"
+                        Value="NS-B"/>
+                <Setter Property="FontSize"
+                        Value="Medium"/>
+            </Style>
+
+            <Style x:Key="Normal" TargetType="Label"
+                    Class="Normal">
+                <Setter Property="FontFamily"
+                        Value="NS-R"/>
+                <Setter Property="FontSize"
+                        Value="Body"/>
+                <Setter Property="TextColor"
+                        Value="#111414"/>
+            </Style>
+
+            <Style x:Key="ImageCarDetail" TargetType="StackLayout"
+                   Class="ImageCarDetail">
+                <Setter Property="Margin"
+                        Value="20, 30"/>
+                <Setter Property="Orientation"
+                        Value="Vertical"/>
+                <Setter Property="VerticalOptions"
+                        Value="CenterAndExpand"/>
+            </Style>
+            
+            <!--Color del fondo de la caracteristica-->
+            <Style x:Key="FeatureItemContainer" TargetType="Frame"
+                   Class="FeatureItemContainer">
+                <Setter Property="Padding"
+                        Value="0"/>
+                <Setter Property="HasShadow"
+                        Value="False"/>
+                <Setter Property="BackgroundColor"
+                        Value="WhiteSmoke"/>
+                <Setter Property="CornerRadius"
+                        Value="10"/>
+            </Style>
+
+            <Style x:Key="IconFeature" TargetType="Label"
+                   Class="IconFeature">
+                <Setter Property="FontFamily"
+                        Value="FA-S"/>
+                <Setter Property="FontSize"
+                        Value="30"/>
+                <Setter Property="VerticalTextAlignment"
+                        Value="Center"/>
+            </Style>
+
+            <Style x:Key="FeatureData" TargetType="StackLayout"
+                   Class="FeatureData">
+                <Setter Property="Spacing"
+                        Value="20"/>
+                <Setter Property="Padding"
+                        Value="20"/>
+                <Setter Property="Orientation"
+                        Value="Horizontal"/>
+                <Setter Property="VerticalOptions"
+                        Value="Center"/>
+            </Style>
+
+            <Style x:Key="FooterCarDetail" TargetType="StackLayout"
+                   Class="FooterCarDetail">
+                <Setter Property="Margin"
+                        Value="20, 10"/>
+                <Setter Property="Orientation"
+                        Value="Horizontal"/>
+                <Setter Property="Spacing"
+                        Value="30"/>
+                <Setter Property="VerticalOptions"
+                        Value="Center"/>
+            </Style>
+
+            <!--Buttons-->
+            <Style x:Key="BtnBuy" TargetType="Button"
+                   Class="BtnBuy">
+                <Setter Property="FontFamily"
+                        Value="NS-R"/>
+                <Setter Property="HorizontalOptions"
+                        Value="FillAndExpand"/>
+                <Setter Property="CornerRadius"
+                        Value="20"/>
+                <Setter Property="Text"
+                        Value="Comprar"/>
+                <Setter Property="TextColor"
+                        Value="White"/>
+                <Setter Property="BackgroundColor"
+                        Value="{StaticResource SystemColor}"/>
+            </Style>
+
             <!--Icons-->
             <x:String x:Key="IconHome">&#xf015;</x:String>
             <x:String x:Key="IconCar">&#xf1b9;</x:String>
             <x:String x:Key="IconTools">&#xf7d9;</x:String>
             <x:String x:Key="IconContact">&#xf27a;</x:String>
+            <!--Icons for features-->
+            <x:String x:Key="IconPeople">&#xf0c0;</x:String>
+            <x:String x:Key="IconGears">&#xf085;</x:String>
+            <x:String x:Key="IconClock">&#xf017;</x:String>
+            <x:String x:Key="IconGauge">&#xf625;</x:String>
+            <x:String x:Key="IconCalendar">&#xf073;</x:String>
+             
+
+            <!--Const text strings-->
+            <x:String x:Key="Welcome">BIENVENID@ A ATENEA DEALERSHIP</x:String>
+            <x:String x:Key="HomeDescription">
+                Descubre nuestra variedad de automóviles, servicios de mantenimiento y ofertas exclusivas. Bienvenido a una experiencia automotriz excepcional.
+            </x:String>
+         
         </ResourceDictionary>
     </Application.Resources>
 </Application>

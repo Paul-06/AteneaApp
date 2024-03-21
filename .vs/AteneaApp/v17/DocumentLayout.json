@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "D:\\Programming\\CSharp\\AteneaApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE427733-4AD0-4396-AEFB-420AA73F89C6}|AteneaApp\\AteneaApp.Android\\AteneaApp.Android.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp.android\\resources\\values\\styles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FE427733-4AD0-4396-AEFB-420AA73F89C6}|AteneaApp\\AteneaApp.Android\\AteneaApp.Android.csproj|solutionrelative:ateneaapp\\ateneaapp.android\\resources\\values\\styles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp\\views\\cardetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\views\\cardetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE427733-4AD0-4396-AEFB-420AA73F89C6}|AteneaApp\\AteneaApp.Android\\AteneaApp.Android.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp.android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FE427733-4AD0-4396-AEFB-420AA73F89C6}|AteneaApp\\AteneaApp.Android\\AteneaApp.Android.csproj|solutionrelative:ateneaapp\\ateneaapp.android\\resources\\values\\colors.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp\\hometabbedpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\hometabbedpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp\\views\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\views\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\obj\\Debug\\netstandard2.0\\Views\\CarDetailPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AteneaApp\\AteneaApp\\obj\\Debug\\netstandard2.0\\Views\\CarDetailPage.xaml.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp\\views\\cataloguepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\views\\cataloguepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp\\views\\servicespage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\views\\servicespage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +50,105 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarDetailPage.xaml.g.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\obj\\Debug\\netstandard2.0\\Views\\CarDetailPage.xaml.g.cs",
+              "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\obj\\Debug\\netstandard2.0\\Views\\CarDetailPage.xaml.g.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\obj\\Debug\\netstandard2.0\\Views\\CarDetailPage.xaml.g.cs",
+              "RelativeToolTip": "AteneaApp\\AteneaApp\\obj\\Debug\\netstandard2.0\\Views\\CarDetailPage.xaml.g.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAYwBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T21:14:17.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\AssemblyInfo.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\AssemblyInfo.cs",
+              "RelativeToolTip": "AteneaApp\\AteneaApp\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T14:09:53.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServicesPage.xaml",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\ServicesPage.xaml",
+              "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\Views\\ServicesPage.xaml",
+              "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\ServicesPage.xaml",
+              "RelativeToolTip": "AteneaApp\\AteneaApp\\Views\\ServicesPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-21T14:02:05.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CataloguePage.xaml",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\CataloguePage.xaml",
+              "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\Views\\CataloguePage.xaml",
+              "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\CataloguePage.xaml",
+              "RelativeToolTip": "AteneaApp\\AteneaApp\\Views\\CataloguePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-21T13:48:24.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "styles.xml",
-              "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp.Android\\Resources\\values\\styles.xml",
-              "RelativeDocumentMoniker": "AteneaApp\\AteneaApp.Android\\Resources\\values\\styles.xml",
-              "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp.Android\\Resources\\values\\styles.xml",
-              "RelativeToolTip": "AteneaApp\\AteneaApp.Android\\Resources\\values\\styles.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-03-13T16:04:32.345Z",
+              "Title": "CarDetailPage.xaml",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\CarDetailPage.xaml",
+              "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\Views\\CarDetailPage.xaml",
+              "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\CarDetailPage.xaml",
+              "RelativeToolTip": "AteneaApp\\AteneaApp\\Views\\CarDetailPage.xaml",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAnwDAAAABvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-21T13:14:34.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\Views\\HomePage.xaml",
+              "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\HomePage.xaml",
+              "RelativeToolTip": "AteneaApp\\AteneaApp\\Views\\HomePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-21T13:12:51.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "colors.xml",
-              "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp.Android\\Resources\\values\\colors.xml",
-              "RelativeDocumentMoniker": "AteneaApp\\AteneaApp.Android\\Resources\\values\\colors.xml",
-              "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp.Android\\Resources\\values\\colors.xml",
-              "RelativeToolTip": "AteneaApp\\AteneaApp.Android\\Resources\\values\\colors.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-03-13T16:04:25.573Z",
+              "Title": "HomeTabbedPage.xaml",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\HomeTabbedPage.xaml",
+              "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\HomeTabbedPage.xaml",
+              "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\HomeTabbedPage.xaml",
+              "RelativeToolTip": "AteneaApp\\AteneaApp\\HomeTabbedPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-21T13:11:16.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\App.xaml",
+              "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\App.xaml",
+              "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\App.xaml",
+              "RelativeToolTip": "AteneaApp\\AteneaApp\\App.xaml",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAYwFYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-13T23:05:40.913Z",
               "EditorCaption": ""
             }
           ]

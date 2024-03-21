@@ -5,7 +5,6 @@ D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\bin\Debug\netstandard2.0\Ate
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\AteneaApp.csproj.AssemblyReference.cache
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\AteneaApp.GeneratedMSBuildEditorConfig.editorconfig
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\App.xaml.g.cs
-D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\AteneaApp.AssemblyInfoInputs.cache
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\AteneaApp.AssemblyInfo.cs
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\AteneaApp.csproj.CoreCompileInputs.cache
@@ -14,4 +13,8 @@ D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Ate
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\refint\AteneaApp.dll
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\AteneaApp.pdb
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\AteneaApp.sourcelink.json
+D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Views\CarDetailPage.xaml.g.cs
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\HomeTabbedPage.xaml.g.cs
+D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Views\CataloguePage.xaml.g.cs
+D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Views\ServicesPage.xaml.g.cs

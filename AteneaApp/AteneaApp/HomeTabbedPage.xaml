@@ -1,15 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AteneaApp.HomeTabbedPage"
-            xmlns:local="clr-namespace:AteneaApp"
             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             android:TabbedPage.ToolbarPlacement="Bottom"
-            SelectedTabColor="#293B3F"
-            UnselectedTabColor="#bbb">
+            BarBackgroundColor="#293B3F"
+            SelectedTabColor="#E8E197"
+            UnselectedTabColor="#ccc"
+             x:Class="AteneaApp.HomeTabbedPage"
+            xmlns:local="clr-namespace:AteneaApp.Views">
   <!--Pages can be added as references or inline-->
-    <local:MainPage IconImageSource="{FontImageSource Glyph={StaticResource IconCar}, FontFamily=FA-S}" Title="Inicio"/>
-    <ContentPage IconImageSource="{FontImageSource Glyph={StaticResource IconHome}, FontFamily=FA-S}" BackgroundColor="Green" Title="Catálogo" />
-    <ContentPage IconImageSource="{FontImageSource Glyph={StaticResource IconTools}, FontFamily=FA-S}" BackgroundColor="LightGoldenrodYellow" Title="Servicios" />
-    <ContentPage IconImageSource="{FontImageSource Glyph={StaticResource IconContact}, FontFamily=FA-S}" BackgroundColor="LightCoral" Title="Contacto"/>
+    <local:HomePage IconImageSource="{FontImageSource Glyph={StaticResource IconHome}, FontFamily=FA-S}" Title="Inicio"/>
+    <local:CataloguePage IconImageSource="{FontImageSource Glyph={StaticResource IconCar}, FontFamily=FA-S}" Title="Catálogo"/>
+    <local:ServicesPage IconImageSource="{FontImageSource Glyph={StaticResource IconTools}, FontFamily=FA-S}" Title="Servicios"/>
+    <local:CarDetailPage IconImageSource="{FontImageSource Glyph={StaticResource IconCar}, FontFamily=FA-S}" Title="Details"/>
 </TabbedPage>

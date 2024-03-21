@@ -648,3 +648,5 @@ D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\stamp\
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\drawable\splash_logo.png
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\drawable\splash_screen.xml
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\android\src\crc64849f3533a223a2e6\SplashActivity.java
+D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\drawable\car.png
+D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\drawable\caravan1978.png

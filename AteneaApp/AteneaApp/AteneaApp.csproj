@@ -16,6 +16,8 @@
     <None Remove="Resources\Fonts\fa-regular-400.ttf" />
     <None Remove="Resources\Fonts\fa-solid-900.ttf" />
     <None Remove="Resources\Fonts\fa-v4compatibility.ttf" />
+    <None Remove="Resources\Fonts\NunitoSans_Bold.ttf" />
+    <None Remove="Resources\Fonts\NunitoSans_Regular.ttf" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +25,8 @@
     <EmbeddedResource Include="Resources\Fonts\fa-regular-400.ttf" />
     <EmbeddedResource Include="Resources\Fonts\fa-solid-900.ttf" />
     <EmbeddedResource Include="Resources\Fonts\fa-v4compatibility.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\NunitoSans_Bold.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\NunitoSans_Regular.ttf" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,5 +38,22 @@
     <EmbeddedResource Update="HomeTabbedPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Update="Views\CarDetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\CataloguePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ServicesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
 </Project>
