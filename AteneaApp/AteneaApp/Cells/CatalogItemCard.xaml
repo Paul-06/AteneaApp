@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Frame xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AteneaApp.Cells.CatalogItemCard"
+             xmlns:models="clr-namespace:AteneaApp.Models"
+             x:DataType="models:CarModel"
+             Style="{StaticResource FrameContainer}" BorderColor="Black">
+    <StackLayout Style="{StaticResource Container}" VerticalOptions="EndAndExpand" Padding="15">
+        <!--Image-->
+        <StackLayout>
+            <Image Source="{Binding ImageName}"/>
+        </StackLayout>
+
+        <!--Title-->
+        <Label Style="{StaticResource Subtitle}" Text="{Binding Modelo}"/>
+        <!--Rating | Used | New-->
+        <StackLayout Orientation="Horizontal" Spacing="10" VerticalOptions="Center">
+            <Label Style="{StaticResource IconRating}"/>
+            <Label Style="{StaticResource Normal}" Text="4.9"/>
+            <Label Style="{StaticResource Normal}" Text="|"/>
+            <Frame CornerRadius="5" BackgroundColor="#eedce4" Padding="5, 0">
+                <Label Style="{StaticResource Normal}" Text="{Binding Estado}"/>
+            </Frame>
+        </StackLayout>
+        <!--Price-->
+        <Label Style="{StaticResource Subtitle}" Margin="0, 5, 0, 0" Text="{Binding PrecioStr}"/>
+    </StackLayout>
+</Frame>
