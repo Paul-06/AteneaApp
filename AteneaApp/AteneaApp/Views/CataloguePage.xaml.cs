@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using AteneaApp.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace AteneaApp.Views
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
+    [XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class CataloguePage : ContentPage
 	{
-		public CataloguePage ()
+		public CataloguePage()
 		{
-			InitializeComponent ();
+			InitializeComponent();
+			BindingContext = new CatalogueViewModel(Navigation);
 		}
 	}
 }
