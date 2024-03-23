@@ -1,12 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cells="clr-namespace:AteneaApp.Cells"
+             xmlns:viewmodels="clr-namespace:AteneaApp.ViewModels"
+             x:DataType="viewmodels:CatalogueViewModel"
              x:Class="AteneaApp.Views.CataloguePage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Catalogue Page"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Style="{StaticResource Container}">
+            <Label Style="{StaticResource Title}" FontSize="Title" Text="{Binding Titulo}" />
+            <CollectionView ItemsSource="{Binding Cars}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <cells:CatalogItemCard/>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

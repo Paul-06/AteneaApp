@@ -6,6 +6,7 @@
         <ResourceDictionary>
             <!--Colors-->
             <Color x:Key="SystemColor">#293b3f</Color>
+            <Color x:Key="BlueColor">#799095</Color>
             
             <!--Styles-->
             <Style x:Key="Container" TargetType="StackLayout"
@@ -16,6 +17,14 @@
                         Value="Start"/>
                 <Setter Property="Padding"
                         Value="20"/>
+            </Style>
+
+            <Style x:Key="FrameContainer" TargetType="Frame"
+                   Class="FrameContainer">
+                <Setter Property="CornerRadius"
+                        Value="10"/>
+                <Setter Property="Padding"
+                        Value="0"/>
             </Style>
 
             <Style x:Key="Title" TargetType="Label"
@@ -87,6 +96,18 @@
                         Value="Center"/>
             </Style>
 
+            <Style x:Key="IconRating" TargetType="Label"
+                   Class="IconRating">
+                <Setter Property="FontFamily"
+                        Value="FA-R"/>
+                <Setter Property="FontSize"
+                        Value="20"/>
+                <Setter Property="VerticalTextAlignment"
+                        Value="Center"/>
+                <Setter Property="TextColor"
+                        Value="{StaticResource BlueColor}"/>
+            </Style>
+
             <Style x:Key="FeatureData" TargetType="StackLayout"
                    Class="FeatureData">
                 <Setter Property="Spacing"
@@ -139,7 +160,9 @@
             <x:String x:Key="IconClock">&#xf017;</x:String>
             <x:String x:Key="IconGauge">&#xf625;</x:String>
             <x:String x:Key="IconCalendar">&#xf073;</x:String>
-             
+
+            <x:String x:Key="IconStar">&#xf5c0;</x:String>
+
 
             <!--Const text strings-->
             <x:String x:Key="Welcome">BIENVENID@ A ATENEA DEALERSHIP</x:String>

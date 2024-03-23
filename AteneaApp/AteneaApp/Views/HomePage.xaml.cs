@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AteneaApp.Secrets;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,11 @@ namespace AteneaApp.Views
 		public HomePage ()
 		{
 			InitializeComponent ();
+			var mySecret = UserSecretsManager.Settings["supabaseKey"];
+			var myUrl = UserSecretsManager.Settings["supabaseUrl"];
+
+			label.Text = $"My key is: {mySecret}";
+			urlLbl.Text = $"My url is: {myUrl}";
 		}
 	}
 }
