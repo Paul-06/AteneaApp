@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638459560126048326
+_nugetassetstimestamp=638466360105719974
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=d:\programming\csharp\ateneaapp\ateneaapp\ateneaapp.android\ateneaapp.android.csproj
+projectfullpath=c:\users\maril\documents\github\ateneaapp\ateneaapp\ateneaapp.android\ateneaapp.android.csproj

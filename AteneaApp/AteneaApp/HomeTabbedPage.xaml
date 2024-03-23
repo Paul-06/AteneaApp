@@ -12,5 +12,6 @@
     <local:HomePage IconImageSource="{FontImageSource Glyph={StaticResource IconHome}, FontFamily=FA-S}" Title="Inicio"/>
     <local:CataloguePage IconImageSource="{FontImageSource Glyph={StaticResource IconCar}, FontFamily=FA-S}" Title="Catálogo"/>
     <local:ServicesPage IconImageSource="{FontImageSource Glyph={StaticResource IconTools}, FontFamily=FA-S}" Title="Servicios"/>
-    <local:CarDetailPage IconImageSource="{FontImageSource Glyph={StaticResource IconCar}, FontFamily=FA-S}" Title="Details"/>
+   
+    <local:ProfilePage IconImageSource="{FontImageSource Glyph={StaticResource IconUser}, FontFamily=FA-S}" Title="Perfil"/>
 </TabbedPage>

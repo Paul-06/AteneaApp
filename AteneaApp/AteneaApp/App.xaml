@@ -87,6 +87,18 @@
                         Value="Center"/>
             </Style>
 
+            <Style x:Key="IconW" TargetType="Button"
+            Class="IconW">
+                <Setter Property="FontFamily"
+            Value="FA-B"/>
+                <Setter Property="FontSize"
+            Value="30"/>
+                <Setter Property="VerticalOptions"
+                        Value="Center"/>
+
+
+            </Style>
+
             <Style x:Key="FeatureData" TargetType="StackLayout"
                    Class="FeatureData">
                 <Setter Property="Spacing"
@@ -98,6 +110,7 @@
                 <Setter Property="VerticalOptions"
                         Value="Center"/>
             </Style>
+
 
             <Style x:Key="FooterCarDetail" TargetType="StackLayout"
                    Class="FooterCarDetail">
@@ -128,21 +141,45 @@
                         Value="{StaticResource SystemColor}"/>
             </Style>
 
+
+            <Style x:Key="Btnwsp" TargetType="Button"
+            Class="Btnwsp">
+                <Setter Property="FontFamily"
+            Value="NS-R"/>
+                <Setter Property="HorizontalOptions"
+            Value="Start"/>
+                <Setter Property="VerticalOptions" 
+            Value="End"/>
+                <Setter Property="CornerRadius"
+            Value="20"/>
+                <Setter Property="Text"
+            Value="Presiona para Whatsapp"/>
+                <Setter Property="TextColor"
+            Value="White"/>
+                <Setter Property="BackgroundColor"
+            Value="{StaticResource SystemColor}"/>
+            </Style>
+
             <!--Icons-->
             <x:String x:Key="IconHome">&#xf015;</x:String>
             <x:String x:Key="IconCar">&#xf1b9;</x:String>
             <x:String x:Key="IconTools">&#xf7d9;</x:String>
             <x:String x:Key="IconContact">&#xf27a;</x:String>
+            <x:String x:Key="IconWsp">&#xf232;</x:String>
+            <x:String x:Key="IconUser">&#xf007;</x:String>
+            <x:String x:Key="IconEdit">&#xf044;</x:String>
+            <x:String x:Key="IconStore">&#xf54e;</x:String>
+            <x:String x:Key="IconPriv">&#xf3ed;</x:String>
             <!--Icons for features-->
             <x:String x:Key="IconPeople">&#xf0c0;</x:String>
             <x:String x:Key="IconGears">&#xf085;</x:String>
             <x:String x:Key="IconClock">&#xf017;</x:String>
             <x:String x:Key="IconGauge">&#xf625;</x:String>
-            <x:String x:Key="IconCalendar">&#xf073;</x:String>
+            
              
 
             <!--Const text strings-->
-            <x:String x:Key="Welcome">BIENVENID@ A ATENEA DEALERSHIP</x:String>
+            <x:String x:Key="Welcome">Bienvenida Mariluz ¿Qué compraras hoy?</x:String>
             <x:String x:Key="HomeDescription">
                 Descubre nuestra variedad de automóviles, servicios de mantenimiento y ofertas exclusivas. Bienvenido a una experiencia automotriz excepcional.
             </x:String>

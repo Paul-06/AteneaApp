@@ -3,10 +3,58 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AteneaApp.Views.HomePage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Home Page"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand" Padding="0">
+            <StackLayout Style="{StaticResource Container}">
+
+
+                <Grid ColumnSpacing="15" RowSpacing="15">
+                    <!-- Texto -->
+                    <StackLayout Grid.Column="0" Orientation="Vertical" >
+                        <Label Text="¡Bienvenida Mariluz!" FontAttributes="Bold" FontSize="Large" TextColor="#293b3f" HorizontalOptions="Start"/>
+                        <Label Text="¿Qué vas a comprar hoy?"  FontAttributes="Italic" FontSize="Medium" TextColor="#293b3f" HorizontalOptions="Start"/>
+                    </StackLayout>
+
+                    <!-- Imagen -->
+                    <Image Grid.Column="1" Source="splash_logo.png" HorizontalOptions="End" VerticalOptions="Center"
+                            WidthRequest="50" HeightRequest="190"/>
+                </Grid>
+
+                <!--Image-->
+                <StackLayout Style="{StaticResource ImageCarDetail}">
+                    <Image Source="portada.png" />
+                </StackLayout>
+
+                <!--Title-->
+                <Label Style="{StaticResource Subtitle}" Text="Super Ofertas 50% de descuento!"/>
+
+                <CarouselView ItemsSource="{Binding ImageSources}" >
+                    <CarouselView.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Style="{StaticResource ImageCarDetail}">
+                                <Image Source="{Binding}" />
+                            </StackLayout>
+                        </DataTemplate>
+                    </CarouselView.ItemTemplate>
+                </CarouselView>
+
+                <!--Title-->
+                <Label Style="{StaticResource Subtitle}" Text="Contactanos:"/>
+                <!--WhatsApp Button-->
+                <Frame Padding="10, 10" VerticalOptions="Center" CornerRadius="10" WidthRequest="110" HorizontalOptions="Start" BackgroundColor="{StaticResource SystemColor}">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                          NumberOfTapsRequired="1"/>
+                    </Frame.GestureRecognizers>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+                        <Label Text="{StaticResource IconWsp}" FontFamily="FA-B"
+                           VerticalTextAlignment="Center" FontSize="Title" TextColor="White"/>
+                        <Label VerticalTextAlignment="Center" Text="WhatsApp" FontSize="16" TextColor="White"/>
+                    </StackLayout>
+                </Frame>
+
+
+            </StackLayout>
         </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>
