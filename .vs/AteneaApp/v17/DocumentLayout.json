@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\maril\\Documents\\GitHub\\AteneaApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|c:\\users\\maril\\documents\\github\\ateneaapp\\ateneaapp\\ateneaapp\\views\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\views\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|c:\\users\\maril\\documents\\github\\ateneaapp\\ateneaapp\\ateneaapp\\views\\profilepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\views\\profilepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|c:\\users\\maril\\documents\\github\\ateneaapp\\ateneaapp\\ateneaapp\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\views\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|c:\\users\\maril\\documents\\github\\ateneaapp\\ateneaapp\\ateneaapp\\views\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\views\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|c:\\users\\maril\\documents\\github\\ateneaapp\\ateneaapp\\ateneaapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
@@ -27,11 +27,11 @@
       "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\views\\mapspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE427733-4AD0-4396-AEFB-420AA73F89C6}|AteneaApp\\AteneaApp.Android\\AteneaApp.Android.csproj|c:\\users\\maril\\documents\\github\\ateneaapp\\ateneaapp\\ateneaapp.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE427733-4AD0-4396-AEFB-420AA73F89C6}|AteneaApp\\AteneaApp.Android\\AteneaApp.Android.csproj|C:\\Users\\maril\\Documents\\GitHub\\AteneaApp\\ateneaapp\\ateneaapp.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE427733-4AD0-4396-AEFB-420AA73F89C6}|AteneaApp\\AteneaApp.Android\\AteneaApp.Android.csproj|solutionrelative:ateneaapp\\ateneaapp.android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE427733-4AD0-4396-AEFB-420AA73F89C6}|AteneaApp\\AteneaApp.Android\\AteneaApp.Android.csproj|c:\\users\\maril\\documents\\github\\ateneaapp\\ateneaapp\\ateneaapp.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{FE427733-4AD0-4396-AEFB-420AA73F89C6}|AteneaApp\\AteneaApp.Android\\AteneaApp.Android.csproj|C:\\Users\\maril\\Documents\\GitHub\\AteneaApp\\ateneaapp\\ateneaapp.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{FE427733-4AD0-4396-AEFB-420AA73F89C6}|AteneaApp\\AteneaApp.Android\\AteneaApp.Android.csproj|solutionrelative:ateneaapp\\ateneaapp.android\\properties\\androidmanifest.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HomePage.xaml",
               "DocumentMoniker": "C:\\Users\\maril\\Documents\\GitHub\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\HomePage.xaml",
               "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\Views\\HomePage.xaml",
@@ -76,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ProfilePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\maril\\Documents\\GitHub\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\ProfilePage.xaml.cs",
               "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\Views\\ProfilePage.xaml.cs",
@@ -89,13 +89,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProfilePage.xaml",
               "DocumentMoniker": "C:\\Users\\maril\\Documents\\GitHub\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\ProfilePage.xaml",
               "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\Views\\ProfilePage.xaml",
               "ToolTip": "C:\\Users\\maril\\Documents\\GitHub\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\ProfilePage.xaml",
               "RelativeToolTip": "AteneaApp\\AteneaApp\\Views\\ProfilePage.xaml",
-              "ViewState": "AQIAADcAAAAAAAAAAAAAAEYAAAA4AAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAAAE8AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-24T03:48:20.679Z",
               "EditorCaption": ""
@@ -110,8 +110,7 @@
               "RelativeToolTip": "AteneaApp\\AteneaApp.Android\\Properties\\AndroidManifest.xml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-03-24T02:32:46.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T02:32:46.702Z"
             },
             {
               "$type": "Document",
@@ -123,8 +122,7 @@
               "RelativeToolTip": "AteneaApp\\AteneaApp.Android\\MainActivity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T01:55:59.159Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-24T01:55:59.159Z"
             },
             {
               "$type": "Document",
@@ -136,8 +134,7 @@
               "RelativeToolTip": "AteneaApp\\AteneaApp\\Views\\MapsPage.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T21:44:15.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-23T21:44:15.603Z"
             },
             {
               "$type": "Document",
@@ -149,8 +146,7 @@
               "RelativeToolTip": "AteneaApp\\AteneaApp\\Views\\MapsPage.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-23T21:43:47.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-23T21:43:47.428Z"
             }
           ]
         }
