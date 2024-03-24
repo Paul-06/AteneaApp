@@ -28,7 +28,7 @@ namespace AteneaApp.Views
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Maps());
+            await Navigation.PushModalAsync(new MapsPage());
 
         }
     }

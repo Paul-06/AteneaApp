@@ -170,6 +170,8 @@
             <x:String x:Key="IconEdit">&#xf044;</x:String>
             <x:String x:Key="IconStore">&#xf54e;</x:String>
             <x:String x:Key="IconPriv">&#xf3ed;</x:String>
+            <x:String x:Key="IconTarje">&#xf09d;</x:String>
+            <x:String x:Key="IconUbi">&#xf601;</x:String>
             <!--Icons for features-->
             <x:String x:Key="IconPeople">&#xf0c0;</x:String>
             <x:String x:Key="IconGears">&#xf085;</x:String>

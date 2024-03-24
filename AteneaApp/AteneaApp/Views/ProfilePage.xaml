@@ -27,26 +27,26 @@
             <Label Text="+51 918993755" FontSize="16" HorizontalOptions="Center" Margin="0,5,0,0"/>
 
             <!-- Editar perfil de la persona -->
-            
-            <Frame CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#E0E0E0">
+
+            <Frame CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#C8D9E3">
                 <StackLayout Orientation="Horizontal" Spacing="10">
                     <Label Text="{StaticResource IconEdit}" FontFamily="FA-R"
                             VerticalTextAlignment="Center" FontSize="Title" />
-                    <Label Text="Editar Perfil" FontSize="16" VerticalOptions="Center"/>
+                    <Label Text="Editar Perfil" FontSize="16" VerticalOptions="Center" TextColor="Black"/>
                 </StackLayout>
             </Frame>
 
             <!-- Compras detalle-->
-            <Frame CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#E0E0E0">
+            <Frame CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#C8D9E3">
                 <StackLayout Orientation="Horizontal" Spacing="10">
                     <Label Text="{StaticResource IconStore}" FontFamily="FA-S"
                 VerticalTextAlignment="Center" FontSize="Title" />
-                    <Label Text="Compras Realizadas" FontSize="16" VerticalOptions="Center"/>
+                    <Label Text="Compras Realizadas" FontSize="16" VerticalOptions="Center" TextColor="Black"/>
                 </StackLayout>
             </Frame>
             
             <!-- Contacto -->
-            <Frame CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#E0E0E0">
+            <Frame CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#C8D9E3">
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                           NumberOfTapsRequired="1"/>
@@ -54,22 +54,41 @@
                 <StackLayout Orientation="Horizontal" Spacing="10">
                     <Label Text="{StaticResource IconWsp}" FontFamily="FA-B"
                         VerticalTextAlignment="Center" FontSize="Title" />
-                    <Label Text="Contactanos" FontSize="16" VerticalOptions="Center"/>
-                </StackLayout>
-            </Frame>
-            
-            <!-- Politicas -->
-            <Frame CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#E0E0E0">
-                <StackLayout Orientation="Horizontal" Spacing="10">
-                    <Label Text="{StaticResource IconPriv}" FontFamily="FA-S"
-                    VerticalTextAlignment="Center" FontSize="Title" />
-                    <Label Text="Politicas y Privacidad" FontSize="16" VerticalOptions="Center"/>
+                    <Label Text="Contactanos" FontSize="16" VerticalOptions="Center" TextColor="Black"/>
                 </StackLayout>
             </Frame>
 
-            <Frame CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#E0E0E0">
+            <!-- Ubicacion -->
+
+            <Frame CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#C8D9E3">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Clicked"
+                    NumberOfTapsRequired="1"/>
+
+                </Frame.GestureRecognizers>
+                        <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Label Text="{StaticResource IconUbi}" FontFamily="FA-S"
+                            VerticalTextAlignment="Center" FontSize="Title"  />
+                    <Label Text="Ubicación" FontSize="16" VerticalOptions="Center" TextColor="Black"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Tarjetas -->
+            <Frame CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#C8D9E3">
                 <StackLayout Orientation="Horizontal" Spacing="10">
-                    <Button Text="Ir a Maps"  Clicked="Button_Clicked"/>
+                    <Label Text="{StaticResource IconCar}" FontFamily="FA-S"
+                    VerticalTextAlignment="Center" FontSize="Title"  />
+                    <Label Text="Tarjetas Registradas" FontSize="16" VerticalOptions="Center" TextColor="Black"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Politicas -->
+            <Frame CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#C8D9E3">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Label Text="{StaticResource IconPriv}" FontFamily="FA-S"
+        VerticalTextAlignment="Center" FontSize="Title"  />
+                    <Label Text="Politicas y Privacidad" FontSize="16" VerticalOptions="Center" TextColor="Black"/>
                 </StackLayout>
             </Frame>
 

@@ -29,7 +29,6 @@ C:\Users\maril\Documents\GitHub\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstand
 C:\Users\maril\Documents\GitHub\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Views\CarDetailPage.xaml.g.cs
 C:\Users\maril\Documents\GitHub\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Views\CataloguePage.xaml.g.cs
 C:\Users\maril\Documents\GitHub\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
-C:\Users\maril\Documents\GitHub\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Views\Maps.xaml.g.cs
 C:\Users\maril\Documents\GitHub\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Views\ProfilePage.xaml.g.cs
 C:\Users\maril\Documents\GitHub\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Views\ServicesPage.xaml.g.cs
 C:\Users\maril\Documents\GitHub\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\AteneaApp.AssemblyInfoInputs.cache
@@ -40,3 +39,4 @@ C:\Users\maril\Documents\GitHub\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstand
 C:\Users\maril\Documents\GitHub\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\AteneaApp.dll
 C:\Users\maril\Documents\GitHub\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\refint\AteneaApp.dll
 C:\Users\maril\Documents\GitHub\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\AteneaApp.pdb
+C:\Users\maril\Documents\GitHub\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Views\MapsPage.xaml.g.cs
