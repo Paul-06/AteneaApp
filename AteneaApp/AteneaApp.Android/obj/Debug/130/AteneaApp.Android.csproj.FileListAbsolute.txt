@@ -50,7 +50,6 @@ D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\androi
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\android\bin\com.companyname.ateneaapp.apks
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\values\styles.xml
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\values\colors.xml
-D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\drawable\car.png
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\mipmap-anydpi-v26\ic_launcher.xml
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\mipmap-hdpi\ic_launcher.png
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\mipmap-hdpi\ic_launcher_background.png
@@ -74,7 +73,6 @@ D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\mi
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\mipmap-xxxhdpi\ic_launcher_monochrome.png
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\drawable\splash_logo.png
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\drawable\splash_screen.xml
-D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\drawable\caravan1978.png
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\uploadflags.txt
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\resolvedassemblies.hash
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\android\assets\AteneaApp.Android.dll
@@ -678,3 +676,8 @@ D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\stamp\
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\stamp\_GenerateJavaStubs.stamp
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
+D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\drawable\descu.png
+D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\drawable\descuent.png
+D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\drawable\descuento.png
+D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\drawable\perfil.jpg
+D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp.Android\obj\Debug\130\res\drawable\portada.png

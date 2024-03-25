@@ -80,9 +80,6 @@
     <AndroidResource Include="Resources\values\colors.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\car.png" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\AteneaApp\AteneaApp.csproj">
       <Project>{184038C8-57A0-4B52-A925-4B1FF3DFC98B}</Project>
       <Name>AteneaApp</Name>
@@ -116,7 +113,11 @@
     <AndroidResource Include="Resources\drawable\splash_screen.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\caravan1978.png" />
+    <AndroidResource Include="Resources\drawable\descu.png" />
+    <AndroidResource Include="Resources\drawable\descuent.png" />
+    <AndroidResource Include="Resources\drawable\descuento.png" />
+    <AndroidResource Include="Resources\drawable\perfil.jpg" />
+    <AndroidResource Include="Resources\drawable\portada.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

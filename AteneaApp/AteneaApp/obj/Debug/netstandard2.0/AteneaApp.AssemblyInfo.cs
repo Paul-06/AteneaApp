@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AteneaApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+add010daba1332632801ec64af7e2dbece27032c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0449b4da7171e00a7b0a32ab6c0451fb35e19ecf")]
 [assembly: System.Reflection.AssemblyProductAttribute("AteneaApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AteneaApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
