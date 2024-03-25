@@ -27,8 +27,12 @@ namespace AteneaApp.Models
         [Column("motor_litros")]
         public double MotorLitros { get; set; }
 
+        public string MotorLitrosStr => $"{MotorLitros} L";
+
         [Column("km_recorridos")]
         public double KmRecorridos { get; set; }
+
+        public string KmRecorridosStr => $"{KmRecorridos:N0} Km";
 
         [Column("cant_pasajeros")]
         public int CantPasajeros { get; set; }

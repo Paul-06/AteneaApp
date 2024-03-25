@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AteneaApp.Views.ProfilePage">
+    <ContentPage.Content>
+        <StackLayout Style="{StaticResource Container}">
+
+            <Grid >
+                <!-- Texto -->
+                <StackLayout Grid.Column="0" Orientation="Vertical" >
+                    <Label Text="Perfil"  FontAttributes="Bold" FontSize="25" VerticalTextAlignment="Center" TextColor="#293b3f" HorizontalOptions="Start"/>
+                </StackLayout>
+
+                <!-- Imagen -->
+                <Image Grid.Column="0" Source="splash_logo.png" HorizontalOptions="End" VerticalOptions="Center"
+            WidthRequest="50" HeightRequest="45"/>
+            </Grid>
+
+            <!-- Foto de perfil -->
+            <Frame CornerRadius="200"  HasShadow="True" Padding="0" HorizontalOptions="Center">
+                <Image Source="perfil.jpg" Aspect="AspectFill" HeightRequest="200" WidthRequest="200"/>
+            </Frame>
+
+            <!-- Nombre y detalles de la persona -->
+
+            <Label Text="Mariluz Ramos || 20 años " TextColor="{StaticResource SystemColor}" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center" Margin="0,10,0,0"/>
+            <Label Text="+51 918 993 755" TextColor="Black" FontSize="16" HorizontalOptions="Center" Margin="0,5,0,0"/>
+
+            <!-- Editar perfil de la persona -->
+
+            <Frame HasShadow="False" CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#deeaef">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Label Text="{StaticResource IconEdit}" TextColor="{StaticResource DarkOlive}" FontFamily="FA-R"
+                            VerticalTextAlignment="Center" FontSize="Title" />
+                    <Label Text="Editar Perfil" FontSize="16" VerticalOptions="Center" TextColor="Black"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Compras detalle-->
+            <Frame HasShadow="False" CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#deeaef">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Label Text="{StaticResource IconStore}" TextColor="{StaticResource DarkOlive}" FontFamily="FA-S"
+                VerticalTextAlignment="Center" FontSize="Title" />
+                    <Label Text="Compras Realizadas" FontSize="16" VerticalOptions="Center" TextColor="Black"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Contacto -->
+            <Frame HasShadow="False" CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#deeaef">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                          NumberOfTapsRequired="1"/>
+                </Frame.GestureRecognizers>
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Label Text="{StaticResource IconWsp}" TextColor="{StaticResource DarkOlive}" FontFamily="FA-B"
+                        VerticalTextAlignment="Center" FontSize="Title" />
+                    <Label Text="Contactanos" FontSize="16" VerticalOptions="Center" TextColor="Black"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Ubicacion -->
+
+            <Frame HasShadow="False" CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#deeaef">
+
+                <!--<Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Clicked"
+                    NumberOfTapsRequired="1"/>
+                </Frame.GestureRecognizers>-->
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Label Text="{StaticResource IconUbi}" FontFamily="FA-S" TextColor="{StaticResource DarkOlive}"
+                            VerticalTextAlignment="Center" FontSize="Title"  />
+                    <Label Text="Ubicación" FontSize="16" VerticalOptions="Center" TextColor="Black"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Tarjetas -->
+            <Frame HasShadow="False" CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#deeaef">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Label Text="{StaticResource IconTarje}" FontFamily="FA-S" TextColor="{StaticResource DarkOlive}"
+                    VerticalTextAlignment="Center" FontSize="Title"  />
+                    <Label Text="Tarjetas Registradas" FontSize="16" VerticalOptions="Center" TextColor="Black"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Politicas -->
+            <Frame HasShadow="False" CornerRadius="10" Margin="0,5,0,5" Padding="10" BackgroundColor="#deeaef">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Label Text="{StaticResource IconPriv}" FontFamily="FA-S" TextColor="{StaticResource DarkOlive}"
+        VerticalTextAlignment="Center" FontSize="Title"  />
+                    <Label Text="Politicas y Privacidad" FontSize="16" VerticalOptions="Center" TextColor="Black"/>
+                </StackLayout>
+            </Frame>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
