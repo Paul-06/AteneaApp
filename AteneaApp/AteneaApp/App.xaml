@@ -7,6 +7,7 @@
             <!--Colors-->
             <Color x:Key="SystemColor">#293b3f</Color>
             <Color x:Key="BlueColor">#799095</Color>
+            <Color x:Key="DarkOlive">#403E29</Color>
             
             <!--Styles-->
             <Style x:Key="Container" TargetType="StackLayout"
@@ -22,9 +23,11 @@
             <Style x:Key="FrameContainer" TargetType="Frame"
                    Class="FrameContainer">
                 <Setter Property="CornerRadius"
-                        Value="10"/>
+                        Value="15"/>
                 <Setter Property="Padding"
-                        Value="0"/>
+                        Value="10"/>
+                <Setter Property="HasShadow"
+                        Value="False"/>
             </Style>
 
             <Style x:Key="Title" TargetType="Label"
@@ -108,11 +111,25 @@
                         Value="{StaticResource BlueColor}"/>
             </Style>
 
+            <Style x:Key="IconService" TargetType="Label"
+                    Class="IconService">
+                <Setter Property="WidthRequest"
+                        Value="100"/>
+                <Setter Property="HorizontalTextAlignment"
+                        Value="Center"/>
+                <Setter Property="VerticalTextAlignment"
+                        Value="Center"/>
+                <Setter Property="TextColor"
+                        Value="{StaticResource DarkOlive}"/>
+                <Setter Property="FontFamily"
+                        Value="FA-S"/>
+                <Setter Property="FontSize"
+                        Value="45"/>
+            </Style>
+
             <Style x:Key="FeatureData" TargetType="StackLayout"
                    Class="FeatureData">
                 <Setter Property="Spacing"
-                        Value="20"/>
-                <Setter Property="Padding"
                         Value="20"/>
                 <Setter Property="Orientation"
                         Value="Horizontal"/>
@@ -150,18 +167,22 @@
             </Style>
 
             <!--Icons-->
+            <!--Menu-->
             <x:String x:Key="IconHome">&#xf015;</x:String>
             <x:String x:Key="IconCar">&#xf1b9;</x:String>
             <x:String x:Key="IconTools">&#xf7d9;</x:String>
             <x:String x:Key="IconContact">&#xf27a;</x:String>
-            <!--Icons for features-->
+            <!--Features-->
             <x:String x:Key="IconPeople">&#xf0c0;</x:String>
             <x:String x:Key="IconGears">&#xf085;</x:String>
-            <x:String x:Key="IconClock">&#xf017;</x:String>
-            <x:String x:Key="IconGauge">&#xf625;</x:String>
+            <!--<x:String x:Key="IconClock">&#xf017;</x:String>-->
+            <x:String x:Key="IconRoad">&#xf018;</x:String>
             <x:String x:Key="IconCalendar">&#xf073;</x:String>
-
+            <!--Catalogue-->
             <x:String x:Key="IconStar">&#xf5c0;</x:String>
+            <!--Services-->
+            <x:String x:Key="IconClipboardCheck">&#xf46c;</x:String>
+            <x:String x:Key="IconWrench">&#xf0ad;</x:String>
 
 
             <!--Const text strings-->

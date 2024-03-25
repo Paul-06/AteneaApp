@@ -4,8 +4,7 @@
              x:Class="AteneaApp.Views.HomePage">
     <ContentPage.Content>
         <StackLayout Spacing="15">
-            <Label x:Name="label" />
-            <Label x:Name="urlLbl"/>
+            <Label Text="Hola :D" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

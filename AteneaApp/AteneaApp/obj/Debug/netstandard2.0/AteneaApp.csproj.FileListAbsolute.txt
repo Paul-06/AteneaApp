@@ -6,6 +6,7 @@ D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Ate
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\AteneaApp.GeneratedMSBuildEditorConfig.editorconfig
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Cells\CatalogItemCard.xaml.g.cs
+D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Cells\ServiceItemCard.xaml.g.cs
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\HomeTabbedPage.xaml.g.cs
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Views\CarDetailPage.xaml.g.cs
 D:\Programming\CSharp\AteneaApp\AteneaApp\AteneaApp\obj\Debug\netstandard2.0\Views\CataloguePage.xaml.g.cs

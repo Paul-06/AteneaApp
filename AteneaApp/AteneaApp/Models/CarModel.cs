@@ -12,6 +12,9 @@ namespace AteneaApp.Models
         [Column("marca_id")]
         public int MarcaId { get; set; }
 
+        // For navigate
+        public CarBrandModel Marca { get; set; }
+
         [Column("image_url")]
         public string ImageUrl { get; set; }
 
@@ -34,10 +37,14 @@ namespace AteneaApp.Models
         public int Anio { get; set; }
 
         [Column("precio")]
-        public double Precio { get; set; }
+        public int Precio { get; set; }
+
+        public string PrecioStr =>  $"${Precio:N0}";
 
         [Column("rating")]
         public double Rating { get; set; }
+
+        public string Estado => (KmRecorridos > 0) ? "Usado" : "Nuevo";
 
     }
 }

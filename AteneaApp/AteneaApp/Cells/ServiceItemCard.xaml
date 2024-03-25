@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Frame xmlns="http://xamarin.com/schemas/2014/forms" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="AteneaApp.Cells.ServiceItemCard"
+            xmlns:models="clr-namespace:AteneaApp.Models"
+            x:DataType="models:ServiceModel"
+            Style="{StaticResource FrameContainer}"
+            BackgroundColor="#ecebd9"
+            BorderColor="{StaticResource DarkOlive}"
+            Margin="0, 10">
+
+    <StackLayout Orientation="Horizontal" Spacing="10" VerticalOptions="CenterAndExpand">
+        <Label Text="{Binding IconFormatted}" Style="{StaticResource IconService}"/>
+        <StackLayout>
+            <Label Style="{StaticResource Subtitle}" TextColor="{StaticResource DarkOlive}" Text="{Binding Name}" />
+            <Label Style="{StaticResource Normal}" FontSize="Small" Text="{Binding Description}"/>
+        </StackLayout>
+    </StackLayout>
+
+</Frame>

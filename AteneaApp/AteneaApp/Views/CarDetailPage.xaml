@@ -1,21 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AteneaApp.Views.CarDetailPage">
+             x:Class="AteneaApp.Views.CarDetailPage"
+             xmlns:models="clr-namespace:AteneaApp.Models"
+             x:DataType="models:CarModel">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand" Padding="0">
-            <StackLayout Style="{StaticResource Container}">
+        <StackLayout Orientation="Vertical" Padding="0">
+            <StackLayout Style="{StaticResource Container}" VerticalOptions="StartAndExpand">
                 <!--Image-->
                 <StackLayout Style="{StaticResource ImageCarDetail}">
-                    <Image Source="caravan1978" />
+                    <Image Source="{Binding ImageUrl}" />
                 </StackLayout>
 
                 <!--Title-->
-                <Label Style="{StaticResource Title}" Text="Caravan 1978 Azul Danúbio"/>
+                <Label Style="{StaticResource Title}" Text="{Binding Modelo}"/>
 
                 <!--Descripcion-->
                 <Label Style="{StaticResource Subtitle}" Text="Descripción:"/>
-                <Label Style="{StaticResource Normal}" Text="El Chevrolet Caravan De Luxo 1978 en Azul Danúbio es un clásico automóvil que combina elegancia y robustez. Su motor de 2.5 litros y su transmisión manual de 5 velocidades lo convierten en una joya para los amantes de los autos vintage."/>
+                <Label Style="{StaticResource Normal}" Text="{Binding Descripcion}"/>
 
                 <Label Margin="0, 20, 0, 0" Style="{StaticResource Subtitle}" Text="Características:"/>
                 <Grid Margin="0, 10" ColumnSpacing="15" RowSpacing="15">
@@ -30,40 +32,51 @@
 
                     <!--Features-->
                     <Frame Style="{StaticResource FeatureItemContainer}" Grid.Row="0" Grid.Column="0">
-                        <StackLayout Style="{StaticResource FeatureData}">
-                            <Label Text="{StaticResource IconPeople}" Style="{StaticResource IconFeature}"/>
-                            <Label Style="{StaticResource Normal}" Text="7" VerticalTextAlignment="Center"/>
+                        <StackLayout Orientation="Vertical" Padding="10">
+                            <Label Text="Capacidad" Margin="0, 0, 0, 5" Style="{StaticResource Subtitle}" FontSize="Caption"/>
+                            <StackLayout Style="{StaticResource FeatureData}">
+                                <Label Text="{StaticResource IconPeople}" Style="{StaticResource IconFeature}"/>
+                                <Label Style="{StaticResource Normal}" Text="{Binding CantPasajeros}" VerticalTextAlignment="Center"/>
+                            </StackLayout>
                         </StackLayout>
                     </Frame>
 
                     <Frame Style="{StaticResource FeatureItemContainer}" Grid.Row="0" Grid.Column="1">
-                        <StackLayout Style="{StaticResource FeatureData}">
-                            <Label Text="{StaticResource IconGears}" Style="{StaticResource IconFeature}"/>
-                            <Label Style="{StaticResource Normal}" Text="4.5 L" VerticalTextAlignment="Center"/>
+                        <StackLayout Orientation="Vertical" Padding="10">
+                            <Label Text="Cilindrada" Margin="0, 0, 0, 5" Style="{StaticResource Subtitle}" FontSize="Caption"/>
+                            <StackLayout Style="{StaticResource FeatureData}">
+                                <Label Text="{StaticResource IconGears}" Style="{StaticResource IconFeature}"/>
+                                <Label Style="{StaticResource Normal}" Text="{Binding MotorLitros}" VerticalTextAlignment="Center"/>
+                            </StackLayout>
                         </StackLayout>
                     </Frame>
 
                     <Frame Style="{StaticResource FeatureItemContainer}" Grid.Row="1" Grid.Column="0">
-                        <StackLayout Style="{StaticResource FeatureData}">
-                            <Label Text="{StaticResource IconCalendar}" Style="{StaticResource IconFeature}"/>
-                            <Label Style="{StaticResource Normal}" Text="1978" VerticalTextAlignment="Center"/>
+                        <StackLayout Orientation="Vertical" Padding="10">
+                            <Label Text="Año" Margin="0, 0, 0, 5" Style="{StaticResource Subtitle}" FontSize="Caption"/>
+                            <StackLayout Style="{StaticResource FeatureData}">
+                                <Label Text="{StaticResource IconCalendar}" Style="{StaticResource IconFeature}"/>
+                                <Label Style="{StaticResource Normal}" Text="{Binding Anio}" VerticalTextAlignment="Center"/>
+                            </StackLayout>
                         </StackLayout>
                     </Frame>
 
                     <Frame Style="{StaticResource FeatureItemContainer}" Grid.Row="1" Grid.Column="1">
-                        <StackLayout Style="{StaticResource FeatureData}">
-                            <Label Text="{StaticResource IconGauge}" Style="{StaticResource IconFeature}"/>
-                            <Label Style="{StaticResource Normal}" Text="80 Km" VerticalTextAlignment="Center"/>
+                        <StackLayout Orientation="Vertical" Padding="10">
+                            <Label Text="Km Recorridos" Margin="0, 0, 0, 5" Style="{StaticResource Subtitle}" FontSize="Caption"/>
+                            <StackLayout Style="{StaticResource FeatureData}">
+                                <Label Text="{StaticResource IconRoad}" Style="{StaticResource IconFeature}"/>
+                                <Label Style="{StaticResource Normal}" Text="{Binding KmRecorridos}" VerticalTextAlignment="Center"/>
+                            </StackLayout>
                         </StackLayout>
                     </Frame>
                 </Grid>
-
             </StackLayout>
             <!--Footer Car Detail-->
-            <StackLayout Style="{StaticResource FooterCarDetail}">
+            <StackLayout VerticalOptions="End" Style="{StaticResource FooterCarDetail}">
                 <StackLayout>
                     <Label Style="{StaticResource Normal}" Text="Precio" FontSize="Caption"/>
-                    <Label Style="{StaticResource Normal}" Text="$130 000"/>
+                    <Label Style="{StaticResource Normal}" Text="{Binding PrecioStr}"/>
                 </StackLayout>
                 <Button Style="{StaticResource BtnBuy}"/>
             </StackLayout>
