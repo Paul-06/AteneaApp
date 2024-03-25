@@ -10,7 +10,7 @@ using Xamarin.Forms.Xaml;
 namespace AteneaApp.Cells
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class CatalogItemCard : Frame
+	public partial class CatalogItemCard : StackLayout
 	{
 		public CatalogItemCard()
 		{

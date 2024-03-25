@@ -6,63 +6,48 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading.Tasks;
 using Microsoft.IdentityModel.Tokens;
+using static Postgrest.Constants;
+using AteneaApp.Data;
 
 namespace AteneaApp.Services.Implementation
 {
     // La implementación también será genérica
-    public class CarDataService : IApiDataService<CarModel>
+    public class CarDataService : IApiDataService<ServiceModel>
     {
-        private readonly string _supabaseUrl = UserSecretsManager.Settings["supabaseUrl"];
-        private readonly string _supabaseKey = UserSecretsManager.Settings["supabaseKey"];
+        private readonly Client _supabase = Task.Run(
+            async () => await SupabaseContext.InitializeClientAsync()
+            ).Result;
 
-        public Task<bool> AddItemAsync(CarModel item)
+        // Methods
+        public Task<bool> AddItemAsync(ServiceModel item)
         {
             throw new NotImplementedException();
         }
 
-        public Task<bool> DeleteItemAsync(string id)
+        public Task<bool> DeleteItemAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<CarModel> GetItemAsync(string id)
+        public Task<ServiceModel> GetItemAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public async Task<IEnumerable<CarModel>> GetItemsAsync()
+        public async Task<IEnumerable<ServiceModel>> GetItemsAsync()
         {
             Debug.Print("Iniciando obtencion de datos");
 
-            var options = new SupabaseOptions
-            {
-                AutoConnectRealtime = true
-            };
-
-            var supabase = new Client(_supabaseUrl, _supabaseKey, options);
-            await supabase.InitializeAsync();
-
-            var result = await supabase.From<CarModel>().Get();
+            var result = await _supabase.From<ServiceModel>().Get();
             var cars = result.Models;
 
             if (cars.Count == 0)
             {
                 Debug.Print("La lista de carros esta vacia");
             }
-            else
-            {
-                foreach (var c in cars)
-                {
-                    Debug.Print(message: $"Auto: {c.Modelo}");
-                }
-            }
 
             return cars;
         }
 
-        public Task<bool> UpdateItemAsync(CarModel item)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

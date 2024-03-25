@@ -43,15 +43,15 @@ namespace AteneaApp.ViewModels
         #region METHODS
         private async void LoadItems()
         {
-            try
-            {
-                var carList = await App.CarDataService.GetItemsAsync();
-                Cars = new ObservableCollection<CarModel>(carList);
-            }
-            catch (Exception ex)
-            {
-                await DisplayAlert("Error:", ex.Message, "Aceptar");
-            }
+            //try
+            //{
+            //    var carList = await App.CarDataService.GetItemsAsync();
+            //    Cars = new ObservableCollection<CarModel>(carList);
+            //}
+            //catch (Exception ex)
+            //{
+            //    await DisplayAlert("Error:", ex.Message, "Aceptar");
+            //}
         }
         #endregion
 

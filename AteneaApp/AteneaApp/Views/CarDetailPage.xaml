@@ -30,9 +30,12 @@
 
                     <!--Features-->
                     <Frame Style="{StaticResource FeatureItemContainer}" Grid.Row="0" Grid.Column="0">
-                        <StackLayout Style="{StaticResource FeatureData}">
-                            <Label Text="{StaticResource IconPeople}" Style="{StaticResource IconFeature}"/>
-                            <Label Style="{StaticResource Normal}" Text="7" VerticalTextAlignment="Center"/>
+                        <StackLayout Orientation="Vertical">
+                            <Label Padding="10" Text="Capacidad" Style="{StaticResource Subtitle}" FontSize="Caption"/>
+                            <StackLayout Style="{StaticResource FeatureData}">
+                                <Label Text="{StaticResource IconPeople}" Style="{StaticResource IconFeature}"/>
+                                <Label Style="{StaticResource Normal}" Text="7" VerticalTextAlignment="Center"/>
+                            </StackLayout>
                         </StackLayout>
                     </Frame>
 

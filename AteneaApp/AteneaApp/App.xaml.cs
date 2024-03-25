@@ -9,7 +9,7 @@ namespace AteneaApp
 {
     public partial class App : Application
     {
-        static IApiDataService<CarModel> _apiDataService;
+        static IApiDataService<ServiceModel> _apiDataService;
         public App()
         {
             InitializeComponent();
@@ -17,7 +17,7 @@ namespace AteneaApp
             MainPage = new HomeTabbedPage();
         }
 
-        public static IApiDataService<CarModel> CarDataService
+        public static IApiDataService<ServiceModel> CarDataService
         {
             get
             {

@@ -10,7 +10,7 @@
             <Label Style="{StaticResource Title}" FontSize="Title" Text="{Binding Titulo}" />
             <CollectionView ItemsSource="{Binding Cars}">
                 <CollectionView.ItemsLayout>
-                    <GridItemsLayout Orientation="Vertical" Span="2" />
+                    <GridItemsLayout HorizontalItemSpacing="0" VerticalItemSpacing="10" Orientation="Vertical" Span="2" />
                 </CollectionView.ItemsLayout>
                 <CollectionView.ItemTemplate>
                     <DataTemplate>

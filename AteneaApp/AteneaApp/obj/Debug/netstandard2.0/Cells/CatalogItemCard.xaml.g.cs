@@ -14,7 +14,7 @@ namespace AteneaApp.Cells {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Cells\\CatalogItemCard.xaml")]
-    public partial class CatalogItemCard : global::Xamarin.Forms.Frame {
+    public partial class CatalogItemCard : global::Xamarin.Forms.StackLayout {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
