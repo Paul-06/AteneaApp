@@ -84,7 +84,7 @@
                 <Setter Property="HasShadow"
                         Value="False"/>
                 <Setter Property="BackgroundColor"
-                        Value="WhiteSmoke"/>
+                        Value="#dfeeee"/>
                 <Setter Property="CornerRadius"
                         Value="10"/>
             </Style>
@@ -97,6 +97,8 @@
                         Value="30"/>
                 <Setter Property="VerticalTextAlignment"
                         Value="Center"/>
+                <Setter Property="TextColor"
+                        Value="{StaticResource DarkOlive}"/>
             </Style>
 
             <Style x:Key="IconRating" TargetType="Label"

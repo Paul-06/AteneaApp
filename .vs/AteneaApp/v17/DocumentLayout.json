@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\Programming\\CSharp\\AteneaApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
-      "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+      "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp\\models\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\models\\carmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp\\views\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\views\\homepage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp\\cells\\catalogitemcard.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
@@ -13,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp\\views\\cardetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
       "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\views\\cardetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|d:\\programming\\csharp\\ateneaapp\\ateneaapp\\ateneaapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{83B351A7-3394-4079-A660-5786BEEEB7DE}|AteneaApp\\AteneaApp\\AteneaApp.csproj|solutionrelative:ateneaapp\\ateneaapp\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +38,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CarModel.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\Models\\CarModel.cs",
+              "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\Models\\CarModel.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\Models\\CarModel.cs",
+              "RelativeToolTip": "AteneaApp\\AteneaApp\\Models\\CarModel.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCAAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T06:10:37.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\Views\\HomePage.xaml",
+              "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\HomePage.xaml",
+              "RelativeToolTip": "AteneaApp\\AteneaApp\\Views\\HomePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-25T05:48:39.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CatalogItemCard.xaml",
               "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\Cells\\CatalogItemCard.xaml",
               "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\Cells\\CatalogItemCard.xaml",
@@ -43,26 +77,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\App.xaml",
               "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\App.xaml",
               "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\App.xaml",
               "RelativeToolTip": "AteneaApp\\AteneaApp\\App.xaml",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAEYAAAApAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFMAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-25T05:21:11.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CarDetailPage.xaml",
               "DocumentMoniker": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\CarDetailPage.xaml",
               "RelativeDocumentMoniker": "AteneaApp\\AteneaApp\\Views\\CarDetailPage.xaml",
               "ToolTip": "D:\\Programming\\CSharp\\AteneaApp\\AteneaApp\\AteneaApp\\Views\\CarDetailPage.xaml",
               "RelativeToolTip": "AteneaApp\\AteneaApp\\Views\\CarDetailPage.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAbAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEQAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-25T03:21:41.283Z",
               "EditorCaption": ""
