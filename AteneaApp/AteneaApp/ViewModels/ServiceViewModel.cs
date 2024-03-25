@@ -46,7 +46,7 @@ namespace AteneaApp.ViewModels
         {
             try
             {
-                var serviceList = await App.CarDataService.GetItemsAsync();
+                var serviceList = await App.WorkUnit.ServiceDataService.GetItemsAsync();
                 Services = new ObservableCollection<ServiceModel>(serviceList);
                 Debug.Print(Services[0].Icon);
             }

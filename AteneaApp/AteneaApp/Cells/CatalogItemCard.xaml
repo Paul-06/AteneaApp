@@ -4,6 +4,10 @@
              x:Class="AteneaApp.Cells.CatalogItemCard"
              xmlns:models="clr-namespace:AteneaApp.Models"
              x:DataType="models:CarModel">
+    <StackLayout.GestureRecognizers>
+        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                              NumberOfTapsRequired="1"/>
+    </StackLayout.GestureRecognizers>
 
     <StackLayout Style="{StaticResource Container}" VerticalOptions="StartAndExpand" Padding="10">
         <!--Image-->

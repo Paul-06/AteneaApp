@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AteneaApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,10 @@ namespace AteneaApp.Views
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class CarDetailPage : ContentPage
 	{
-		public CarDetailPage ()
+		public CarDetailPage (CarModel model)
 		{
 			InitializeComponent ();
+			BindingContext = model;
 		}
 	}
 }

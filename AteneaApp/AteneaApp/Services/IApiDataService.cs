@@ -9,6 +9,7 @@ namespace AteneaApp.Services
     {
         Task<bool> AddItemAsync(T item);
         Task<bool> DeleteItemAsync(int id);
+        Task<bool> UpdateItemAsync(T item);
         Task<T> GetItemAsync(int id);
         Task<IEnumerable<T>> GetItemsAsync();
     }

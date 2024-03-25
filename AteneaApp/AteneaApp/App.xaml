@@ -131,8 +131,6 @@
                    Class="FeatureData">
                 <Setter Property="Spacing"
                         Value="20"/>
-                <Setter Property="Padding"
-                        Value="20"/>
                 <Setter Property="Orientation"
                         Value="Horizontal"/>
                 <Setter Property="VerticalOptions"
@@ -178,7 +176,7 @@
             <x:String x:Key="IconPeople">&#xf0c0;</x:String>
             <x:String x:Key="IconGears">&#xf085;</x:String>
             <!--<x:String x:Key="IconClock">&#xf017;</x:String>-->
-            <x:String x:Key="IconGauge">&#xf625;</x:String>
+            <x:String x:Key="IconRoad">&#xf018;</x:String>
             <x:String x:Key="IconCalendar">&#xf073;</x:String>
             <!--Catalogue-->
             <x:String x:Key="IconStar">&#xf5c0;</x:String>

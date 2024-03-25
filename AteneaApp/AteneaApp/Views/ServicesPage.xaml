@@ -8,7 +8,7 @@
     <ContentPage.Content>
         <StackLayout Style="{StaticResource Container}">
             <Label Text="{Binding Titulo}" Style="{StaticResource Title}" HorizontalOptions="Center"/>
-            <ListView ItemsSource="{Binding Services}" HasUnevenRows="True" SelectionMode="None" SeparatorVisibility="None">
+            <ListView ItemsSource="{Binding Services}" HasUnevenRows="True" SelectionMode="None" SeparatorVisibility="None" IsPullToRefreshEnabled="True">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell IsEnabled="False">
